@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   # Specify the license type. CocoaPods detects automatically the license file if it is named
   # 'LICENCE*.*' or 'LICENSE*.*', however if the name is different, specify it.
-  s.license      = 'MIT (example)'
+  s.license      = 'BSD-style, with the full license available with the framework in License.txt.'
   # s.license      = { :type => 'MIT (example)', :file => 'FILE_LICENSE' }
 
   # Specify the authors of the library, with email addresses. You can often find
@@ -52,8 +52,8 @@ Pod::Spec.new do |s|
   # added to the Pods project. If the pattern is a directory then the
   # path will automatically have '*.{h,m,mm,c,cpp}' appended.
   #
-  s.source_files = 'Classes', 'Classes/**/*.{h,m}'
-  s.exclude_files = 'Classes/Exclude'
+  s.source_files = 'framework/Source'
+  s.exclude_files = 'examples'
 
   # A list of file patterns which select the header files that should be
   # made available to the application. If the pattern is a directory then the
