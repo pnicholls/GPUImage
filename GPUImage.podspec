@@ -52,7 +52,7 @@ Pod::Spec.new do |s|
   # added to the Pods project. If the pattern is a directory then the
   # path will automatically have '*.{h,m,mm,c,cpp}' appended.
   #
-  s.source_files = 'framework/Source/', 'framworks/Source/iOS'
+  s.source_files = 'framework/Source/', 'framework/Source/iOS'
   s.exclude_files = 'examples'
 
   # A list of file patterns which select the header files that should be
